@@ -7,22 +7,19 @@ public class DigitalVideoDisc {
 	private String director;
 	private int length;
 	private float cost;
-	
-	//Cac ham constructer
+
+	// Cac ham constructer
 	public DigitalVideoDisc(String title) {
 		super();
 		this.title = title;
 	}
-	
-	
+
 	public DigitalVideoDisc(String title, String category, float cost) {
 		super();
 		this.title = title;
 		this.category = category;
 		this.cost = cost;
 	}
-
-	
 
 	public DigitalVideoDisc(String title, String category, String director, float cost) {
 		super();
@@ -32,7 +29,6 @@ public class DigitalVideoDisc {
 		this.cost = cost;
 	}
 
-	
 	public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
 		super();
 		this.title = title;
@@ -45,22 +41,30 @@ public class DigitalVideoDisc {
 	public String getTitle() {
 		return title;
 	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
 	public String getCategory() {
 		return category;
 	}
+
 	public String getDirector() {
 		return director;
 	}
+
 	public int getLength() {
 		return length;
 	}
+
 	public float getCost() {
 		return cost;
 	}
-	
+
 	// ham in ra thong tin dia
 	public String toString() {
-        return "Title: " + title + ", Cost: $" + cost;
-    }
+		return "Title: " + title + ", Cost: $" + cost;
+	}
 
 }
