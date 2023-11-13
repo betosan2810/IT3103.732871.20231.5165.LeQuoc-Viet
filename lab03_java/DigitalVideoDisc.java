@@ -1,5 +1,5 @@
 //Le Quoc Viet - 20215165
-package lab02_java;
+package lab03_java;
 
 public class DigitalVideoDisc {
 	private String title;
