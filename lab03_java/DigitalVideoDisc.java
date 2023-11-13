@@ -2,35 +2,34 @@
 package lab03_java;
 
 public class DigitalVideoDisc {
+	private static int nbDigitalVideoDiscs = 0;
+
 	private String title;
 	private String category;
 	private String director;
 	private int length;
-	private float cost;
+	private float c
+
 	
-	//Cac ham constructer
 	public DigitalVideoDisc(String title) {
 		super();
 		this.title = title;
-	}
-	
+		
+
 	
 	public DigitalVideoDisc(String title, String category, float cost) {
 		super();
 		this.title = title;
 		this.category = category;
-		this.cost = cost;
-	}
+		
 
 	
-
 	public DigitalVideoDisc(String title, String category, String director, float cost) {
 		super();
 		this.title = title;
 		this.category = category;
 		this.director = director;
-		this.cost = cost;
-	}
+		
 
 	
 	public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
@@ -39,33 +38,70 @@ public class DigitalVideoDisc {
 		this.category = category;
 		this.director = director;
 		this.length = length;
-		this.cost = cost;
-	}
+		
 
-	public String getTitle() {
-		return title;
-	}
+	
 	public void setTitle(String title) {
-		this.title = title;
+		
+
+	
+	public void setCategory(String category) {
+		
+
+	
+	public void setDirector(String director) {
+		
+
+	
+	public void setLength(int length) {
+		
+
+	
+	public void setCost(float cost) {
+		
+
+	
+	public String getTitle() {
+		
+
 	}
-
-
 	public String getCategory() {
-		return category;
+		
+
 	}
 	public String getDirector() {
-		return director;
+		
+
 	}
 	public int getLength() {
-		return length;
+		
+
 	}
 	public float getCost() {
 		return cost;
 	}
+
+	Additional getter fo
+		ic int get
+	    return id;
+    }
+
+	// 
+	Helper method to update class attribu
+		ate void updateDiscCou
+		nbDigitalVideoDiscs++;
+	    id = nbDigitalVideoDiscs;
+    }
+
+	New method to check if the title matches
+		ic boolean isMatch(String pattern) {
+		// Use the contains method to check if the title contains t
+	 
+
 	
 	// ham in ra thong tin dia
-	public String toString() {
-        return "Title: " + title + ", Cost: $" + cost;
-    }
+		String toString() {
+	 
+
 
 }
