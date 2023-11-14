@@ -1,4 +1,4 @@
-package lab03_java;
+package hust.soict.dsai.aims.store;
 
 public class Store {
 	private DigitalVideoDisc[] itemsInStore;

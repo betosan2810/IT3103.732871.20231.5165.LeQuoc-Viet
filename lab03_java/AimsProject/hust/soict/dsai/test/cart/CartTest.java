@@ -1,5 +1,5 @@
 //Le Quoc Viet 20215165 
-package lab03_java;
+package hust.soict.dsai.test.cart;
 
 public class CartTest {
 	public static void main(String[] args) {
