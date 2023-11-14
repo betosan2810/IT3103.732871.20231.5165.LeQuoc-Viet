@@ -1,5 +1,5 @@
 //Le Quoc Viet 20215165 
-package lab03_java;
+package hust.soict.dsai.aims.disc;
 
 public class DigitalVideoDisc {
 	private static int nbDigitalVideoDiscs = 0;
